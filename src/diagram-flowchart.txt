@@ -1,0 +1,39 @@
++-----------------------+
+|   Start Aplikacji     |
++----------+------------+
+           |
+           v
++----------+------------+
+|   Ekran Główny        |
+|  [Przegląd tygodnia]  |
++----------+------------+
+           |
++----------+-------------------+
+| Wybór Akcji                  |
++----------+---------+---------+
+           |         |         |
+           v         v         v
++----------+  +------+----+  +-+-------------+
+| Zarządzaj |  |Zaplanuj  |  |Generuj Listę |
+| Przepisami|  |Posiłek   |  |Zakupów       |
++-----+-----+  +-----+----+  +----+---------+
+      |              |            |
+      v              v            v
++-----+-----+  +-----+----+  +----+---------+
+| [Dodaj]   |  |Przeciągnij|  |Automatycznie|
+| [Edytuj]  |  |przepis na |  |zsumuj       |
+| [Usuń]    |  |dzień/posił|  |składniki    |
+| Przepis   |  +------------+  +----+---------+
++-----------+                       |
+                             +------+------+
+                             | Edytuj listę|
+                             | [odhacz]    |
+                             +-------------+
+
+Objaśnienie diagramu:
+    * Start Aplikacji: Użytkownik uruchamia aplikację.
+    * Ekran Główny: Wyświetla plan posiłków na bieżący tydzień.
+    * Wybór Akcji: Użytkownik wybiera, co chce zrobić. Są trzy główne opcje:
+        - Zarządzaj Przepisami: Przejście do bazy przepisów w celu dodania nowego, edycji lub usunięcia istniejącego.
+        - Zaplanuj Posiłek: Przeciąganie i upuszczanie przepisów z bazy na konkretny dzień i posiłek (śniadanie, obiad, kolacja) w kalendarzu.
+        - Generuj Listę Zakupów: Aplikacja automatycznie zbiera wszystkie składniki z zaplanowanych na dany tydzień posiłków, tworząc kompletną listę. Użytkownik może ją ręcznie edytować, odhaczając kupione produkty.

@@ -1,0 +1,1 @@
+Projekt dotyczy aplikacji do planowania posiłków i tworzenia list zakupów. Rozwiązuje problem marnowania jedzenia oraz braku pomysłów na zdrowe dania. Odbiorcami są młodzi dorośli, którzy chcą jeść zdrowiej i oszczędzać czas na zakupach. W aplikacji znajdą się: baza prostych przepisów, generator listy zakupów oraz plan posiłków na tydzień.
